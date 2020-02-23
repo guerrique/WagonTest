@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/reversegeocod/reversegeocod",
     "pages/location/location",
+    "pages/reversegeocod/reversegeocod",
     "pages/new/new",
     "pages/prehamster/prehamster",
     "pages/index/index",
     "pages/hamster/hamster",
     "pages/map/map",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    ".gitignore"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -17,7 +18,7 @@
   },
   "permission": {
     "scope.userLocation": {
-      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
     }
   },
   "sitemapLocation": "sitemap.json"
