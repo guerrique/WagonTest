@@ -1,0 +1,5 @@
+<!--pages/map/map.wxml-->
+<view class="mapcontainer">
+<view class="h2">Map Page</view>
+<map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}"></map>
+</view>

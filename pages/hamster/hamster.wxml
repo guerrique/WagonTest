@@ -1,0 +1,9 @@
+<!--pages/hamster/hamster.wxml-->
+<view class="container">
+<text class="hamster">Your mother</text>
+<text class="hamster">was</text>
+<text class="hamster">a hamster</text>
+<text class="hamster">and your father</text>
+<text class="hamster">smelt</text>
+<text class="hamster">of elderberries</text>
+</view>

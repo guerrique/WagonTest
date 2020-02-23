@@ -1,0 +1,9 @@
+<!--pages/location/location.wxml-->
+<view class="container">
+
+<button type="primary" bindtap="BtnGetLocation">Get My Location</button>
+<view class="latlong">
+<text>latitude: {{latitude}} longitude: {{longitude}}</text></view>
+
+<map longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" enable-zoom="true" show-scale="true"></map>
+</view>

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+
+  <view class="banner">
+    <text class="headline">Me is Panda</text>
+    <text class="action">Who is you?</text>
+    <button type="default" bindtap='map'>Start today</button>
+  </view>
+

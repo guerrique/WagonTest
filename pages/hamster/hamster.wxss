@@ -1,0 +1,5 @@
+/* pages/hamster/hamster.wxss */
+.hamster {
+  font-size: 30px;
+  font-weight: bold;
+}

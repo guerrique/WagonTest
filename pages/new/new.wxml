@@ -1,0 +1,29 @@
+<!--pages/new/new.wxml-->
+<view class="container">
+<view class="h1" id="merde">{{header}}</view>
+<view>{{text}}</view>
+<view class="text">{{greetings[2].greeting}}</view>
+
+<view wx:for="{{greetings}}" id="{{index}}">
+{{index+1}}: {{item.greeting}}</view>
+
+<button type="primary" bindtap="add" id="incrementButton">
+Incrementation: {{count}}</button>
+
+<navigator url="/pages/index/index" hover-class='navigator-hover'>text</navigator>
+<!--  option par défaut, ça "stack" (empile) au dessus de la page, on peut revenir en arrière par la flèche en haut à gauche. Peut en faire jusqu'à 5 de profondeur -->
+<navigator url="/pages/logs/logs" open-type="redirect" hover-class='other-navigator-hover'>text</navigator>
+<!--  ça redirige toute l'app sur une nouvelle page, on l'utilise pas beaucoup -->
+<navigator url="/pages/index/index" open-type='switchTab' hover-class='other-navigator-hover'>tab switching</navigator>
+<!--  pour ce dernier, switch tab, j'ai pas de tab ici, donc ça le fait pas. sinon de cliquer dessus ça fait pareil que cliquer sur un tab en bas -->
+
+<form bindsubmit="bindFormSubmit">
+<button type='primary' form-type='submit' loading='{{loading}}'> Send</button>
+</form>
+<!--shows a little animated spinner when you click the button-->
+
+<view class="body-view">
+  <switch checked bindchange='switch1Change'/>
+  <switch bindchange="switch2Change"/>
+</view>
+</view>

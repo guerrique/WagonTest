@@ -1,0 +1,8 @@
+/* pages/new/new.wxss */
+.h1 {
+  font-size: 60rpx;
+  font-weight: bold;
+}
+.text {
+  font-style: italic;
+}

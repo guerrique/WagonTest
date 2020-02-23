@@ -1,0 +1,6 @@
+<!--pages/prehamster/prehamster.wxml-->
+<view class="container">
+<navigator url="/pages/hamster/hamster" hover-class='navigator-hover'>
+<button class="default">Click to view your private message</button>
+</navigator>
+</view>
